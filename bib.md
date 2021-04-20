@@ -1,6 +1,6 @@
 # TensorFlow White Papers
 
-This document identifies white papers about TensorFlow.
+This document identifies the whitepapers about TensorFlow.
 
 ## Large-Scale Machine Learning on Heterogeneous Distributed Systems
 
