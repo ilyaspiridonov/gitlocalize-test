@@ -1,6 +1,6 @@
 # TensorFlowホワイトペーパー
 
-このドキュメントでは、TensorFlow HELLO！に関するホワイトペーパーを特定します。
+このドキュメントでは、TensorFlow HELLO！に関するホワイトペーパーを特定します。 HELLO AGAIN!
 
 ## 異種分散システムでの大規模機械学習
 
