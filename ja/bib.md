@@ -4,81 +4,81 @@
 
 ## 異種分散システムでの大規模機械学習
 
-[Access this white paper.](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45166.pdf)
+[このホワイトペーパーにアクセスしてください。](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45166.pdf)
 
-**Abstract:** TensorFlow is an interface for expressing machine learning algorithms and an implementation for executing such algorithms. A computation expressed using TensorFlow can be executed with little or no change on a wide variety of heterogeneous systems, ranging from mobile devices such as phones and tablets up to large-scale distributed systems of hundreds of machines and thousands of computational devices such as GPU cards. The system is flexible and can be used to express a wide variety of algorithms, including training and inference algorithms for deep neural network models, and it has been used for conducting research and for deploying machine learning systems into production across more than a dozen areas of computer science and other fields, including speech recognition, computer vision, robotics, information retrieval, natural language processing, geographic information extraction, and computational drug discovery. This paper describes the TensorFlow interface and an implementation of that interface that we have built at Google. The TensorFlow API and a reference implementation were released as an open-source package under the Apache 2.0 license in November, 2015 and are available at www.tensorflow.org.
+**要約：** TensorFlowは、機械学習アルゴリズムを表現するためのインターフェースであり、そのようなアルゴリズムを実行するための実装です。 TensorFlowを使用して表現された計算は、電話やタブレットなどのモバイルデバイスから、数百台のマシンやGPUカードなどの数千の計算デバイスの大規模分散システムに至るまで、さまざまな異種システムでほとんどまたはまったく変更なしで実行できます。 。このシステムは柔軟性があり、ディープニューラルネットワークモデルのトレーニングや推論アルゴリズムなど、さまざまなアルゴリズムを表現するために使用できます。また、研究の実施や、機械学習システムの本番環境への展開に使用されています。コンピュータサイエンスおよびその他の分野。音声認識、コンピュータビジョン、ロボット工学、情報検索、自然言語処理、地理情報抽出、計算による薬物発見などが含まれます。このペーパーでは、TensorFlowインターフェースと、Googleで構築したそのインターフェースの実装について説明します。 TensorFlow APIとリファレンス実装は、2015年11月にApache 2.0ライセンスの下でオープンソースパッケージとしてリリースされ、www.tensorflow.orgで入手できます。
 
-### In BibTeX format
+### BibTeX形式
 
-If you use TensorFlow in your research and would like to cite the TensorFlow system, we suggest you cite this whitepaper.
+研究でTensorFlowを使用していて、TensorFlowシステムを引用したい場合は、このホワイトペーパーを引用することをお勧めします。
 
-<pre>@misc{tensorflow2015-whitepaper,
-title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
-url={https://www.tensorflow.org/},
-note={Software available from tensorflow.org},
-author={
-    Mart\'{\i}n~Abadi and
-    Ashish~Agarwal and
-    Paul~Barham and
-    Eugene~Brevdo and
-    Zhifeng~Chen and
-    Craig~Citro and
-    Greg~S.~Corrado and
-    Andy~Davis and
-    Jeffrey~Dean and
-    Matthieu~Devin and
-    Sanjay~Ghemawat and
-    Ian~Goodfellow and
-    Andrew~Harp and
-    Geoffrey~Irving and
-    Michael~Isard and
-    Yangqing Jia and
-    Rafal~Jozefowicz and
-    Lukasz~Kaiser and
-    Manjunath~Kudlur and
-    Josh~Levenberg and
-    Dandelion~Man\'{e} and
-    Rajat~Monga and
-    Sherry~Moore and
-    Derek~Murray and
-    Chris~Olah and
-    Mike~Schuster and
-    Jonathon~Shlens and
-    Benoit~Steiner and
-    Ilya~Sutskever and
-    Kunal~Talwar and
-    Paul~Tucker and
-    Vincent~Vanhoucke and
-    Vijay~Vasudevan and
-    Fernanda~Vi\'{e}gas and
-    Oriol~Vinyals and
-    Pete~Warden and
-    Martin~Wattenberg and
-    Martin~Wicke and
-    Yuan~Yu and
-    Xiaoqiang~Zheng},
-  year={2015},
+<pre>@misc {tensorflow2015-ホワイトペーパー、
+title = {{TensorFlow}：異種システムでの大規模な機械学習}、
+url = {https://www.tensorflow.org/}、
+note = {ソフトウェアはtensorflow.orgから入手可能}、
+著者= {
+マート\ &amp;#39;{\ i} n〜アバディと
+Ashish〜Agarwalと
+ポール〜バーハムと
+ユージーン・ブレブドと
+Zhifeng〜Chenと
+クレイグ〜シトロと
+グレッグ〜S.〜コラードと
+アンディ〜デイビスと
+ジェフリー〜ディーンと
+Matthieu〜Devinと
+サンジャイ〜ゲマワットと
+イアン〜グッドフェローと
+アンドリュー〜ハープと
+ジェフリー〜アーヴィングと
+マイケル・アイザードと
+楊清嘉と
+Rafal〜Jozefowiczと
+ルカシュ・カイザーと
+Manjunath〜Kudlurと
+Josh〜Levenbergと
+タンポポ〜マン\ &amp;#39;{e}と
+ラジャット・モーンガと
+シェリー〜ムーアと
+デレク〜マレーと
+クリス〜オラーと
+マイク〜シュスターと
+Jonathon〜Shlens and
+ブノワ〜シュタイナーと
+Ilya〜Sutskeverと
+クナル・タルワールと
+ポール・タッカーと
+ヴィンセント〜ヴァンホークと
+ビジェイ〜ヴァスデヴァンと
+フェルナンダ〜Vi \ &amp;#39;{e}ガスと
+オリオール〜ヴィニャルスと
+ピート・ワーデンと
+マーチン〜ヴァッテンベルクと
+マーティン〜ウィッケと
+元〜ゆうと
+Xiaoqiang〜Zheng}、
+年= {2015}、
 }
 </pre>
 
-Or in textual form:
+またはテキスト形式：
 
-<pre>Martín Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo,
-Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis,
-Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow,
-Andrew Harp, Geoffrey Irving, Michael Isard, Rafal Jozefowicz, Yangqing Jia,
-Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mané, Mike Schuster,
-Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Jonathon Shlens,
-Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker,
-Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viégas,
-Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke,
-Yuan Yu, and Xiaoqiang Zheng.
-TensorFlow: Large-scale machine learning on heterogeneous systems,
-2015. Software available from tensorflow.org.
+<pre>マルティン・アバディ、アシッシュ・アガルワル、ポール・バーハム、ユージーン・ブレヴド、
+Zhifeng Chen、Craig Citro、Greg S. Corrado、Andy Davis、
+ジェフリー・ディーン、マシュー・デヴィン、サンジャイ・ゲマワット、イアン・グッドフェロー、
+Andrew Harp、Geoffrey Irving、Michael Isard、Rafal Jozefowicz、Yangqing Jia、
+Lukasz Kaiser、Manjunath Kudlur、Josh Levenberg、DanMané、Mike Schuster、
+Rajat Monga、Sherry Moore、Derek Murray、Chris Olah、Jonathon Shlens、
+Benoit Steiner、Ilya Sutskever、Kunal Talwar、Paul Tucker、
+ヴィンセント・ヴァンホーク、ビジェイ・ヴァスデヴァン、フェルナンダ・ヴィエガス、
+Oriol Vinyals、Pete Warden、Martin Wattenberg、Martin Wicke、
+元悠、暁強鄭。
+TensorFlow：異種システムでの大規模な機械学習、
+2015.ソフトウェアはtensorflow.orgから入手できます。
 </pre>
 
-## TensorFlow: A System for Large-Scale Machine Learning
+## TensorFlow：大規模な機械学習のためのシステム
 
-[Access this white paper.](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
+[このホワイトペーパーにアクセスしてください。](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
 
-**Abstract:** TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. TensorFlow uses dataflow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general purpose GPUs, and custom-designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous “parameter server” designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with a focus on training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research. In this paper, we describe the TensorFlow dataflow model and demonstrate the compelling performance that TensorFlow achieves for several real-world applications.
+**要約：** TensorFlowは、大規模かつ異種環境で動作する機械学習システムです。 TensorFlowは、データフローグラフを使用して、計算、共有状態、およびその状態を変更する操作を表します。データフローグラフのノードを、クラスター内の多くのマシン間、およびマシン内のマルチコアCPU、汎用GPU、テンソルプロセッシングユニット（TPU）と呼ばれるカスタム設計のASICなどの複数の計算デバイス間でマッピングします。このアーキテクチャは、アプリケーション開発者に柔軟性をもたらします。以前の「パラメータサーバー」設計では、共有状態の管理がシステムに組み込まれていましたが、TensorFlowを使用すると、開発者は新しい最適化とトレーニングアルゴリズムを試すことができます。 TensorFlowは、ディープニューラルネットワークのトレーニングと推論に重点を置いて、さまざまなアプリケーションをサポートしています。いくつかのGoogleサービスは本番環境でTensorFlowを使用しており、オープンソースプロジェクトとしてリリースしており、機械学習の研究に広く使用されるようになっています。このホワイトペーパーでは、TensorFlowデータフローモデルについて説明し、TensorFlowがいくつかの実際のアプリケーションで実現する魅力的なパフォーマンスを示します。
